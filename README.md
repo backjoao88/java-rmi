@@ -4,7 +4,7 @@ This repository contains a simple example of RMI in Java.
 
 ## Running on Windows
 
-Java Version: 1.8.0_221
+__Java Version: 1.8.0_221__
 
 This commands must be executed inside ./java-rmi/ folder on the command prompt.
 
