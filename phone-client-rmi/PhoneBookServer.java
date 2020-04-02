@@ -1,3 +1,5 @@
+package com.client;
+
 import java.rmi.*;
 import java.util.ArrayList;
 
