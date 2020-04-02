@@ -1,5 +1,3 @@
-package com.client;
-
 import java.io.Serializable;
 
 class PhoneBookEntry implements Serializable{

@@ -1,5 +1,3 @@
-package com.server;
-
 import java.rmi.*;
 import java.rmi.registry.*;
 import java.rmi.server.*;

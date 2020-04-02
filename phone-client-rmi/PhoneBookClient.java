@@ -1,5 +1,3 @@
-package com.client;
-
 import java.rmi.Naming;
 
 class PhoneBookClient{
@@ -8,8 +6,8 @@ class PhoneBookClient{
 
     PhoneBookEntry phoneBookEntry = new PhoneBookEntry();
     phoneBookEntry.setFirstName("joao");
-    phoneBookEntry.setLastName("asaaaadsa");
-    phoneBookEntry.setPhoneNumber("tertete");
+    phoneBookEntry.setLastName("back");
+    phoneBookEntry.setPhoneNumber("991315568");
     phoneBookServer.addEntry(phoneBookEntry);
     phoneBookServer.getPhoneBook().forEach(System.out::println);
 

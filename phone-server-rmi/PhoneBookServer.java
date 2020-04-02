@@ -1,5 +1,3 @@
-package com.server;
-
 import java.rmi.*;
 import java.util.ArrayList;
 
