@@ -4,6 +4,7 @@ This repository contains a simple example of RMI in Java.
 
 ## Running on Windows
 
+Java Version: 1.8.0_221
 This commands must be executed inside ./java-rmi/ folder on the command prompt.
 
 The following command will compile and execute the Registery Class, responsible to handle method requests.
