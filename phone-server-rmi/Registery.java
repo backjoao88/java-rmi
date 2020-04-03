@@ -5,7 +5,7 @@ import java.rmi.server.*;
 
 public class Registery {
 
-	public static void main(String[] args) throws RemoteException, MalformedURLException {
+  public static void main(String[] args) throws RemoteException, MalformedURLException {
     try{
       PhoneBookServerImpl phoneBookServerImpl = new PhoneBookServerImpl();
       Registry reg = LocateRegistry.createRegistry(3099);
@@ -15,4 +15,5 @@ public class Registery {
       System.out.println(ex);
     }
 	}
+  
 }
