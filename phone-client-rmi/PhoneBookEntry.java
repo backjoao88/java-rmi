@@ -1,5 +1,14 @@
 import java.io.Serializable;
 
+/**
+ * 
+ * Classe responsável por representar o tipo de dado PhoneBookEntry.
+ * Implementa a interface Serializable.
+ * 
+ * @author João Paulo Back
+ *
+ */
+
 class PhoneBookEntry implements Serializable{
 
   private String firstName;
@@ -24,7 +33,6 @@ class PhoneBookEntry implements Serializable{
   public void setPhoneNumber(String phoneNumber){
     this.phoneNumber = phoneNumber;
   }
-
   @Override
   public String toString(){
     return getFirstName() + " - " + getLastName() + " - " + getPhoneNumber();

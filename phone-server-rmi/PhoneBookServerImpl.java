@@ -9,6 +9,17 @@ import java.io.FileWriter;
 import java.io.PrintWriter;
 import java.io.FileNotFoundException;
 
+/**
+ * 
+ * Classe responsável por prover uma implementação para cada um dos
+ * métodos remotos presentes na interface PhoneBookServer.
+ * Extende de UnicastRemoteObject
+ * Implementa a interface PhoneBookServer.
+ * 
+ * @author João Paulo Back
+ *
+ */
+
 class PhoneBookServerImpl extends UnicastRemoteObject implements PhoneBookServer{
 
   public PhoneBookServerImpl() throws RemoteException{
