@@ -14,6 +14,6 @@ public class Registery {
     } catch (RemoteException | AlreadyBoundException ex) {
       System.out.println(ex);
     }
-	}
+  }
   
 }
