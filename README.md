@@ -4,7 +4,7 @@ This repository contains a simple example of RMI in Java.
 
 ## Compiling and Running on Linux
 
-__Java Version: 13.0.2
+__Java Version: 13.0.2__
 
 This commands must be executed inside ./java-rmi/ folder on the command prompt.
 
