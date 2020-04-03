@@ -2,34 +2,32 @@
 
 This repository contains a simple example of RMI in Java.
 
-## Running on Windows
+## Compiling and Running on Linux
 
-__Java Version: 1.8.0_221__
+__Java Version: 13.0.2__
 
 This commands must be executed inside ./java-rmi/ folder on the command prompt.
 
-The following command will compile and execute the Registery Class, responsible to handle method requests.
+Compile the Registery Class (handle method requests) with the following command:
 
 ```
-cd .\phone-server-rmi\ & javac -d ../outputs *.java & cd.. & cd outputs & java Registery
+javac -d outputs phone-server-rmi/*.java
 ```
 
-The following command will compile and execute the Client Class, responsible to invoke the remote method.
+Inside outputs folder, run the registery class with the following command:
 
 ```
-cd .\phone-client-rmi\ & javac -d ../outputs *.java & cd.. & cd outputs & java PhoneBookClient & cd..
+java Registery
 ```
 
-## Running on Linux
-
-The following command
+Compile the Client Class (make method request to the server) with the following command:
 
 ```
-
+javac -d outputs phone-client-rmi/*.java
 ```
 
-The following command
+Inside outputs folder, run the client class with the following command:
 
 ```
-
+java PhoneBookClient
 ```
